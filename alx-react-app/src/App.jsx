@@ -8,8 +8,7 @@ function App() {
   return (
     <>
     <div>
-      <UserProfile name="Alice" age={25} bio="Frontend developer and cat lover." />
-      <UserProfile name="Bob" age={30} bio="Guitarist and photographer." />
+    <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
     </div>
       <Header />
       <MainContent />
